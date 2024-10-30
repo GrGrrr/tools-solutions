@@ -7,37 +7,37 @@ export const HeroSection = () => {
             <Image className="z-0 3xl:min-w-[127%] 3xl:min-h-[127%]" src={heroPic} layout={'fill'} objectFit={'cover'} objectPosition={'center'}
                    alt={''}/>
             <div className="relative sm:mx-[20px] 3xl:mx-[64px] 3xl:mb-[120px] z-10">
-                <div className="flex sm:hidden 3xl:justify-start sm:pb-[10px] 3xl:block">
+                <div className="sm:hidden 2xl:justify-start 3xl:flex">
                     <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         Empovering &
                     </p>
                 </div>
-                <div className="flex sm:block 3xl:justify-start sm:pb-[10px] 3xl:hidden">
+                <div className="sm:block 2xl:justify-start sm:pb-[10px] 3xl:hidden">
                     <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         Empovering
                     </p>
                 </div>
-                <div className="flex sm:hidden 3xl:justify-end 3xl:block">
+                <div className="sm:hidden 2xl:justify-end 3xl:flex">
                     <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         Elevating
                     </p>
                 </div>
-                <div className="flex sm:block sm:pb-[10px] 3xl:hidden">
+                <div className="sm:block sm:pb-[10px] 3xl:hidden">
                     <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
                         & Elevating
                     </p>
                 </div>
-                <div className="flex sm:hidden 3xl:block 3xl:justify-center">
+                <div className="sm:hidden 3xl:flex 3xl:justify-center">
                     <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
                         Business growth
                     </p>
                 </div>
-                <div className="flex sm:block sm:pb-[10px] 3xl:hidden">
+                <div className="sm:block sm:pb-[10px] 3xl:hidden">
                     <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
                         Business
                     </p>
                 </div>
-                <div className="flex sm:block 3xl:hidden">
+                <div className="sm:block 3xl:hidden">
                     <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
                         growth
                     </p>
