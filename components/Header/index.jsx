@@ -7,7 +7,7 @@ export const Header = () => {
             <nav className="flex items-center justify-between pb-[80px]" aria-label="Global">
                 <div className="flex 3xl:flex-1 sm:hidden 3xl:block">
                     <a href="#">
-                        <LogoMobile className="sm:block 3xl:hidden" />
+                        <Logo className="sm:block 3xl:hidden" />
                     </a>
                 </div>
                 <div className="flex 3xl:flex-1 sm:block 3xl:hidden">

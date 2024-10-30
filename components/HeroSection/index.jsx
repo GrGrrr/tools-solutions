@@ -8,17 +8,17 @@ export const HeroSection = () => {
                    alt={''}/>
             <div className="relative sm:mx-[20px] 3xl:mx-[64px] 3xl:mb-[120px] z-10">
                 <div className="flex sm:hidden 3xl:justify-start sm:pb-[10px] 3xl:block">
-                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
+                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         Empovering &
                     </p>
                 </div>
                 <div className="flex sm:block 3xl:justify-start sm:pb-[10px] 3xl:hidden">
-                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
+                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         Empovering
                     </p>
                 </div>
                 <div className="flex sm:hidden 3xl:justify-end 3xl:block">
-                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
+                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         Elevating
                     </p>
                 </div>
