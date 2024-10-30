@@ -23,29 +23,29 @@ export const HeroSection = () => {
                     </p>
                 </div>
                 <div className="sm:block sm:pb-[10px] 3xl:hidden">
-                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
+                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         & Elevating
                     </p>
                 </div>
                 <div className="sm:hidden 3xl:flex 3xl:justify-center">
-                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
+                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         Business growth
                     </p>
                 </div>
                 <div className="sm:block sm:pb-[10px] 3xl:hidden">
-                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
+                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         Business
                     </p>
                 </div>
                 <div className="sm:block 3xl:hidden">
-                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title 4xl:desktop-hero-title-lg uppercase">
+                    <p className="sm:text-mobile-hero-title 3xl:text-desktop-hero-title text-base-weak 4xl:desktop-hero-title-lg uppercase">
                         growth
                     </p>
                 </div>
             </div>
             <div className="grid 3xl:grid-cols-2 relative sm:mx-[20px] sm:my-[80px] 3xl:mx-[64px] mb-[80px] z-10">
                 <div className="flex flex-col">
-                    <p className="sm:text-mobile-text-md 3xl:text-desktop-text-lg 3xl:text-end">From enhancing operational efficiency to incorporating
+                    <p className="sm:text-mobile-text-md 3xl:text-desktop-text-lg text-base-weak 3xl:text-end">From enhancing operational efficiency to incorporating
                         the latest technology, we help businesses achieve more. Our solutions are designed to provide
                         you with smarter, quicker, and easier ways to succeed</p>
                 </div>
