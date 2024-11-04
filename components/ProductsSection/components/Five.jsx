@@ -7,7 +7,8 @@ export const Five = () => {
             <div className="sm:pt-[60px] sm:px-[20px] 3xl:pt-[80px] 3xl:mr-[80px]">
                 <span className="sm:hidden 3xl:text-desktop-title-sm 3xl:block text-base-strong">Expert Guidance for Every Step</span>
                 <span className="sm:text-mobile-title-sm sm:block 3xl:block text-base-strong">Expert Guidance <br/>for Every Step</span>
-                <p className="sm:text-desktop-text-md 3xl:text-desktop-text-md text-base-strong sm:mt-[40px] sm:mb-[60px] 3xl:mt-[80px]">We handle the complexities, bringing
+                <p className="sm:text-desktop-text-md 3xl:text-desktop-text-md text-base-strong sm:mt-[40px] sm:mb-[60px] 3xl:mt-[80px]">We
+                    handle the complexities, bringing
                     clarity to your day-to-day operations with our business process solutions. From setting up new
                     businesses to total workspace solutions, managing government relationships, as well as legal,
                     finance, and HR functions, T&S offers effective business process outsourcing services. Whether

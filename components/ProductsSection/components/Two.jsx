@@ -7,7 +7,8 @@ export const Two = () => {
             <div className="sm:pt-[60px] sm:px-[20px] 3xl:pt-[80px] 3xl:mr-[80px]">
                 <span className="sm:hidden 3xl:text-desktop-title-sm 3xl:block text-base-strong">Streamlined Solutions for Success</span>
                 <span className="sm:text-mobile-title-sm sm:block text-base-strong">Streamlined Solutions for <br/>Success</span>
-                <p className="sm:text-desktop-text-md 3xl:text-desktop-text-md text-base-strong sm:mt-[40px] sm:mb-[60px] 3xl:mt-[80px]">With our low-code and SAP implementation
+                <p className="sm:text-desktop-text-md 3xl:text-desktop-text-md text-base-strong sm:mt-[40px] sm:mb-[60px] 3xl:mt-[80px]">With
+                    our low-code and SAP implementation
                     services, we refine complex integration processes, supporting your organization to stay agile in
                     today’s dynamic market. From maximizing technology adoption to modernizing digital platforms, our
                     team will deliver the solutions to keep you responsive and reliable. Let’s work together to turn

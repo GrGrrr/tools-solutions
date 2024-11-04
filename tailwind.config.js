@@ -37,6 +37,9 @@ module.exports = {
                     'strong': '#4D4D4D',
                     'weak': '#CFD5D7',
                 },
+                'border': {
+                    'footer': 'rgba(64, 64, 64, 1)',
+                }
             },
             fontSize: {
                 'desktop-hero-title-lg': ['189.51px', {

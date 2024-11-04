@@ -8,7 +8,8 @@ export const ClientsSection = () => {
     return (
         <div className="sm:px-[20px] sm:py-[80px] 3xl:px-[64px] 3xl:py-[160px] bg-bg-weak">
             <div className="flex 3xl:items-center sm:flex-col justify-between">
-                <span className="sm:text-mobile-title-sm sm:pb-[40px] 3xl:text-desktop-title-sm text-base-strong 3xl:uppercase">Trusted by Industry Leaders</span>
+                <span
+                    className="sm:text-mobile-title-sm sm:pb-[40px] 3xl:pb-[80px] 3xl:text-desktop-title-sm text-base-strong">Trusted by Industry Leaders</span>
                 <button type="button" className="w-[232px] h-[64px] rounded-full bg-base-strong text-base-weak">Success
                     stories
                 </button>
