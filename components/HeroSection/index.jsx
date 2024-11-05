@@ -5,9 +5,9 @@ export const HeroSection = () => {
     return (
         <div className="w-full h-full z-10">
             <Image
-                className="absolute z-0 sm:min-h-[1050px] sm:h-[1050px] 4xl:min-h-[100%]"
+                className="z-0 sm:min-h-[980px] sm:min-w-[280%] 3xl:min-w-[124%] 3xl:min-h-[1050px] 4xl:min-w-[100%] 4xl:min-h-[1250px]"
                 src={heroPic}
-                layout={'fill'} objectFit={'cover'} objectPosition={'center'}
+                layout={'fill'} objectFit={'cover'} objectPosition={'left'}
                 style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', opacity: '0.5'}}
                 alt={''}/>
             <div className="relative sm:mx-[20px] 3xl:mx-[64px] 3xl:mb-[120px] 4xl:mx-[100px] z-10">
