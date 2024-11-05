@@ -6,7 +6,7 @@ export const CareerSection = () => {
         <div className="relative">
             <Image className="z-0 h-full" src={careerPic} layout={'fill'} objectFit={'cover'} objectPosition={'center'}
                    alt={''}/>
-            <div className="relative z-10 sm:mx-[20px] sm:py-[80px] 3xl:mx-[64px] 3xl:py-[160px]">
+            <div className="relative z-10 sm:mx-[20px] sm:py-[80px] 3xl:mx-[64px] 3xl:py-[160px] 4xl:mx-[100px]">
                 <div className="flex flex-col justify-center items-center">
                     <span
                         className="sm:text-mobile-title-lg sm:uppercase 3xl:normal-case sm:text-center 3xl:text-desktop-title-sm text-base-weak mb-[80px]">What Can We Do for You?</span>

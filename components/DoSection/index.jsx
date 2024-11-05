@@ -3,7 +3,7 @@ import doPic from '@/public/redd-f-5U_28ojjgms-unsplash.jpg';
 
 export const DoSection = () => {
     return (
-        <div className="3xl:grid 3xl:grid-cols-2 sm:flex sm:flex-col 3xl:pl-[64px] bg-base-weak relative z-10">
+        <div className="3xl:grid 3xl:grid-cols-2 sm:flex sm:flex-col 3xl:pl-[64px] 4xl:pl-[100px] bg-base-weak relative z-10">
             <div className="sm:px-[20px] sm:py-[80px] 3xl:py-[160px]">
                 <span className="sm:text-mobile-title-md 3xl:text-desktop-title-md text-base-strong uppercase">What we do</span>
                 <p className="sm:text-desktop-text-md 3xl:text-desktop-text-md text-base-strong mt-[64px] 3xl:mr-[80px]">We

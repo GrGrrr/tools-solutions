@@ -1,14 +1,15 @@
+import Link from 'next/link';
 import {Logo} from "@/assets/icons/Logo";
 import {LogoMobile} from "@/assets/icons/LogoMobile";
 
 export const Header = () => {
     return (
-        <header className="sm:mx-[20px] sm:mt-[40px] 3xl:mx-[64px] 3xl:mt-[40px] relative z-10">
+        <header className="sm:mx-[20px] sm:mt-[40px] 3xl:mx-[64px] 3xl:mt-[40px] 4xl:mx-[100px] relative z-10">
             <nav className="flex items-center justify-between pb-[80px]" aria-label="Global">
                 <div className="flex 3xl:flex-1 sm:hidden 3xl:block">
-                    <a href="#">
+                    <Link href="/">
                         <Logo className="sm:block 3xl:hidden"/>
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex 3xl:flex-1 sm:block 3xl:hidden">
                     <a href="#">

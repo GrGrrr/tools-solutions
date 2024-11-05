@@ -6,7 +6,7 @@ export const NumeralsSection = () => {
         <div className="relative">
             <Image className="z-0 h-full" src={numeralsPic} layout={'fill'} objectFit={'cover'}
                    objectPosition={'center'} alt={''}/>
-            <div className="relative z-10 sm:mx-[20px] sm:pt-[80px] 3xl:mx-[64px] 3xl:pt-[160px]">
+            <div className="relative z-10 sm:mx-[20px] sm:pt-[80px] 3xl:mx-[64px] 3xl:pt-[160px] 4xl:mx-[100px]">
             <span
                 className="sm:hidden 3xl:text-desktop-title-md 3xl:block text-base-weak uppercase">Empowering Growth.<br/>
             Our Expertise. Our Commitment</span>

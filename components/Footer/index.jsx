@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import {Logo} from "@/assets/icons/Logo";
 import {Arrow} from "@/assets/icons/Arrow";
 import {Facebook} from "@/assets/icons/Facebook";
@@ -11,7 +12,7 @@ export const Footer = () => {
 
     return (
         <div
-            className="sm:px-[20px] sm:pt-[40px] sm:pb-[40px] 3xl:px-[64px] 3xl:pt-[80px] 3xl:pb-[40px] relative z-10 bg-base-strong">
+            className="sm:px-[20px] sm:pt-[40px] sm:pb-[40px] 3xl:px-[64px] 3xl:pt-[80px] 3xl:pb-[40px] 4xl:px-[100px] relative z-10 bg-base-strong">
             <div className="flex lg:flex-1 pb-[40px] border-b-[1px] border-border-footer">
                 <a href="#">
                     <Logo/>
@@ -20,8 +21,8 @@ export const Footer = () => {
             <div className="3xl:grid 3xl:grid-cols-2 sm:pt-[40px] 3xl:pt-[80px]">
                 <div className="3xl:grid 3xl:grid-cols-2">
                     <div className="flex gap-x-12 flex-col">
-                        <a href="#" className="sm:text-mobile-text-md 3xl:text-desktop-text-md text-base-weak">About
-                            Us</a>
+                        <Link href="/about" className="sm:text-mobile-text-md 3xl:text-desktop-text-md text-base-weak">About
+                            Us</Link>
                         <a href="#"
                            className="sm:text-mobile-text-md 3xl:text-desktop-text-md text-base-weak mt-[10px]">Partners</a>
                         <a href="#"

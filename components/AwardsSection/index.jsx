@@ -5,7 +5,7 @@ import award3Pic from "@/public/matt-seymour-o2DXhb7ew8w-unsplash.jpg";
 
 export const AwardsSection = () => {
     return (
-        <div className="sm:px-[20px] sm:py-[80px] 3xl:px-[64px] 3xl:py-[160px] bg-base-weak">
+        <div className="sm:px-[20px] sm:py-[80px] 3xl:px-[64px] 3xl:py-[160px] 4xl:px-[100px] bg-base-weak">
             <span className="sm:hidden 3xl:text-desktop-title-md 3xl:block text-base-strong uppercase">Celebrating Our Milestones</span>
             <span className="sm:text-mobile-title-lg sm:block 3xl:hidden text-base-strong uppercase">Celebrating <br/>Our Milestones</span>
             <p className="sm:text-mobile-text-lg 3xl:text-desktop-text-md text-base-strong mt-[64px] sm:pb-[60px] 3xl:pb-[80px] 3xl:mr-[80px]">Tools

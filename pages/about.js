@@ -1,17 +1,18 @@
 import {Layout} from "@/components/Layout";
-import {HeroSection} from "@/components/HeroSection";
-import {DoSection} from "@/components/DoSection";
 import {ClientsSection} from "@/components/ClientsSection";
 import {ProductsSection} from "@/components/ProductsSection";
 import {NumeralsSection} from "@/components/NumeralsSection";
 import {CareerSection} from "@/components/CareerSection";
 import {AwardsSection} from "@/components/AwardsSection";
+import {AboutHeroSection} from "@/components/AboutHero";
+import {NumbersSection} from "@/components/NumbersSection";
 
-export default function Home() {
+
+export default function About() {
     return (
         <>
-            <HeroSection/>
-            <DoSection/>
+            <AboutHeroSection/>
+            <NumbersSection/>
             <ClientsSection/>
             <ProductsSection/>
             <NumeralsSection/>
@@ -21,7 +22,7 @@ export default function Home() {
     );
 }
 
-Home.getLayout = function getLayout(page) {
+About.getLayout = function getLayout(page) {
     return (
         <Layout>
             {page}

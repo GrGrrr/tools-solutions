@@ -7,7 +7,7 @@ export const HeroSection = () => {
             <Image className="z-0 3xl:min-w-[127%] 3xl:min-h-[127%] 4xl:min-w-[100%] 4xl:min-h-[100%]" src={heroPic}
                    layout={'fill'} objectFit={'cover'} objectPosition={'center'}
                    alt={''}/>
-            <div className="relative sm:mx-[20px] 3xl:mx-[64px] 3xl:mb-[120px] z-10">
+            <div className="relative sm:mx-[20px] 3xl:mx-[64px] 3xl:mb-[120px] 4xl:mx-[100px] z-10">
                 <div className="sm:hidden 2xl:justify-start 3xl:flex">
                     <p className="3xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-weak uppercase">
                         Empovering &
