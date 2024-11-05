@@ -3,10 +3,13 @@ import heroPic from '@/public/Hero.png';
 
 export const HeroSection = () => {
     return (
-        <div className="w-full h-full overflow-hidden z-10">
-            <Image className="z-0 3xl:min-w-[127%] 3xl:min-h-[127%] 4xl:min-w-[100%] 4xl:min-h-[100%]" src={heroPic}
-                   layout={'fill'} objectFit={'cover'} objectPosition={'center'}
-                   alt={''}/>
+        <div className="w-full h-full z-10">
+            <Image
+                className="absolute z-0 sm:min-h-[1050px] sm:h-[1050px] 4xl:min-h-[100%]"
+                src={heroPic}
+                layout={'fill'} objectFit={'cover'} objectPosition={'center'}
+                style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', opacity: '0.5'}}
+                alt={''}/>
             <div className="relative sm:mx-[20px] 3xl:mx-[64px] 3xl:mb-[120px] 4xl:mx-[100px] z-10">
                 <div className="sm:hidden 2xl:justify-start 3xl:flex">
                     <p className="3xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-weak uppercase">

@@ -24,8 +24,10 @@ export default function About() {
 
 About.getLayout = function getLayout(page) {
     return (
-        <Layout>
-            {page}
-        </Layout>
+        <div className="relative">
+            <Layout>
+                {page}
+            </Layout>
+        </div>
     );
 };

@@ -5,6 +5,7 @@ export const NumeralsSection = () => {
     return (
         <div className="relative">
             <Image className="z-0 h-full" src={numeralsPic} layout={'fill'} objectFit={'cover'}
+                   style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', opacity: '0.5'}}
                    objectPosition={'center'} alt={''}/>
             <div className="relative z-10 sm:mx-[20px] sm:pt-[80px] 3xl:mx-[64px] 3xl:pt-[160px] 4xl:mx-[100px]">
             <span

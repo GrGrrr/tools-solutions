@@ -23,8 +23,10 @@ export default function Home() {
 
 Home.getLayout = function getLayout(page) {
     return (
-        <Layout>
-            {page}
-        </Layout>
+        <>
+            <Layout>
+                {page}
+            </Layout>
+        </>
     );
 };

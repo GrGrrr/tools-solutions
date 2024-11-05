@@ -17,11 +17,11 @@ export const Layout = ({children}) => {
                       content="width=device-width, initial-scale=1.0, user-scalable=no, shrink-to-fit=no"/>
                 <link rel="icon" href="/favicon.ico"/>
             </Head>
-        <main className={lato.className}>
-            <Header />
-            {children}
-            <Footer />
-        </main>
+            <main className={lato.className}>
+                <Header/>
+                {children}
+                <Footer/>
+            </main>
         </>
     );
 }
