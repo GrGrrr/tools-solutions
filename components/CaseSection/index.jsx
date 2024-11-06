@@ -7,11 +7,11 @@ export const CaseSection = () => {
             <p className="sm:text-mobile-title-md 2xl:text-desktop-title-md text-base-strong uppercase">Featured Case
                 studies</p>
             <div
-                className="sm:hidden 2xl:grid lg:grid-cols-2 lg:gap-[20px] lg:pt-[80px]">
+                className="sm:hidden 3xl:grid 3xl:grid-cols-2 3xl:gap-[20px] 3xl:pt-[80px]">
 
             </div>
             <div
-                className="sm:flex sm:flex-row overflow-x-auto sm:pt-[60px] 2xl:hidden">
+                className="sm:flex sm:flex-row overflow-x-auto sm:pt-[60px] 3xl:hidden">
                 {logos.map((item, i) => <CaseCard key={i} item={item} />)}
             </div>
         </div>
