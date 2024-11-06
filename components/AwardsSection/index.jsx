@@ -14,8 +14,8 @@ export const AwardsSection = () => {
                 dedication to quality and excellence across various <br/>sectors has been widely recognized, earning
                 several prestigious awards</p>
             <div
-                className="sm:flex sm:flex-col sm:pt-[60px] 2xl:hidden 3xl:grid 3xl:grid-cols-3 3xl:gap-[20px] 3xl:pt-[80px] border-t-[1px] border-smoke-weak">
-                <div className="sm:mb-[80px]">
+                className="sm:flex sm:flex-col sm:pt-[60px] lg:grid 2xl:hidden 3xl:grid lg:grid-cols-3 lg:gap-[20px] lg:pt-[80px] border-t-[1px] border-smoke-weak">
+                <div className="sm:mb-[80px] lg:mb-0">
                     <div className="relative sm:mb-[20px] 3xl:mb-[40px] sm:h-[240px] 3xl:h-[400px]">
                         <Image className="z-0 w-auto rounded-lg" src={award1Pic} layout={'fill'} objectFit={'cover'}
                                objectPosition={'center'} alt=""/>
@@ -27,13 +27,13 @@ export const AwardsSection = () => {
                         prestigious King Abdulaziz Quality Award, honoring our commitment to exceptional service and
                         quality standards in the industry</p>
                 </div>
-                <div className="sm:mb-[80px]">
+                <div className="sm:mb-[80px] lg:mb-0">
                     <div className="relative sm:mb-[20px] 2xl:mb-[40px] sm:h-[240px] 2xl:h-[400px]">
                         <Image className="z-0 w-auto rounded-lg" src={award2Pic} layout={'fill'} objectFit={'cover'}
                                objectPosition={'center'} alt=""/>
                     </div>
                     <span
-                        className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 2xl:mr-[20px]">Gulf Business Excellence Award</span>
+                        className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 3xl:mr-[20px]">Gulf Business Excellence Award</span>
                     <p className="sm:text-mobile-text-md 2xl:text-desktop-text-md text-smoke-strong mt-[20px]">Recognized
                         for our innovative
                         solutions and outstanding service delivery, we received the Gulf Business Excellence Award,
@@ -45,7 +45,7 @@ export const AwardsSection = () => {
                                objectPosition={'center'} alt=""/>
                     </div>
                     <span
-                        className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 2xl:mr-[20px]">Saudi Arabian Innovation Award</span>
+                        className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 3xl:mr-[20px]">Saudi Arabian Innovation Award</span>
                     <p className="sm:text-mobile-text-md 2xl:text-desktop-text-md text-smoke-strong mt-[20px]">Honored
                         with the Saudi Arabian
                         Innovation Award, we are acknowledged for our pioneering contributions to technology and
@@ -53,28 +53,28 @@ export const AwardsSection = () => {
                 </div>
             </div>
             <div
-                className="sm:hidden lg:block xl:hidden 2xl:block 2xl:pt-[80px] border-t-[1px] border-smoke-weak">
+                className="sm:hidden 2xl:block 2xl:pt-[80px] border-t-[1px] border-smoke-weak">
                 <div className="grid grid-cols-2 gap-[20px]">
-                    <div className="sm:mb-[80px]">
+                    <div className="sm:mb-[80px] 3xl:mb-0">
                         <div className="relative sm:mb-[20px] 2xl:mb-[40px] sm:h-[240px] 2xl:h-[400px]">
                             <Image className="z-0 w-auto rounded-lg" src={award1Pic} layout={'fill'} objectFit={'cover'}
                                    objectPosition={'center'} alt=""/>
                         </div>
                         <span
-                            className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 2xl:mr-[20px]">King Abdulaziz Quality Award</span>
+                            className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 3xl:mr-[20px]">King Abdulaziz Quality Award</span>
                         <p className="sm:text-mobile-text-md 2xl:text-desktop-text-md text-smoke-strong mt-[20px]">We
                             are
                             proud to have received the
                             prestigious King Abdulaziz Quality Award, honoring our commitment to exceptional service and
                             quality standards in the industry</p>
                     </div>
-                    <div className="sm:mb-[80px]">
+                    <div className="sm:mb-[80px] 3xl:mb-0">
                         <div className="relative sm:mb-[20px] 2xl:mb-[40px] sm:h-[240px] 2xl:h-[400px]">
                             <Image className="z-0 w-auto rounded-lg" src={award2Pic} layout={'fill'} objectFit={'cover'}
                                    objectPosition={'center'} alt=""/>
                         </div>
                         <span
-                            className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 2xl:mr-[20px]">Gulf Business Excellence Award</span>
+                            className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 3xl:mr-[20px]">Gulf Business Excellence Award</span>
                         <p className="sm:text-mobile-text-md 2xl:text-desktop-text-md text-smoke-strong mt-[20px]">Recognized
                             for our innovative
                             solutions and outstanding service delivery, we received the Gulf Business Excellence Award,
@@ -87,7 +87,7 @@ export const AwardsSection = () => {
                                objectPosition={'center'} alt=""/>
                     </div>
                     <span
-                        className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 2xl:mr-[20px]">Saudi Arabian Innovation Award</span>
+                        className="sm:text-mobile-subtitle 2xl:text-desktop-subtitle text-base-strong sm:mr-[40px] 3xl:mr-[20px]">Saudi Arabian Innovation Award</span>
                     <p className="sm:text-mobile-text-md 2xl:text-desktop-text-md text-smoke-strong mt-[20px]">Honored
                         with the Saudi Arabian
                         Innovation Award, we are acknowledged for our pioneering contributions to technology and
