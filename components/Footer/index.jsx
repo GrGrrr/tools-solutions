@@ -50,14 +50,14 @@ export const Footer = () => {
                                className="h-[88px] sm:text-mobile-subtitle 3xl:text-desktop-subtitle block w-full bg-base-strong appearance-none focus:outline-none"/>
                         <button><Arrow/></button>
                     </div>
-                    <span className="sm:hidden 3xl:block 3xl:text-desktop-text-sm text-smoke-weak">By signing up to receive emails from T&S, you agree to our Privacy Policy. We treat <br/>your info responsibly. Unsubscribe anytime</span>
+                    <span className="sm:hidden 3xl:block 3xl:text-desktop-text-sm text-smoke-weak">By signing up to receive emails from T&S, you agree to our Privacy Policy. We treat your info responsibly. Unsubscribe anytime</span>
                     <span className="sm:text-mobile-text-sm sm:block 3xl:hidden text-smoke-weak">By signing up to receive emails from T&S, you agree to our Privacy Policy. We treat your info responsibly. Unsubscribe anytime</span>
                 </div>
             </div>
             <div className="sm:pt-[40px] 3xl:grid 3xl:grid-cols-2 3xl:pt-[80px]">
                 <div>
                     <p className="sm:text-mobile-text-sm 3xl:text-desktop-text-sm text-base-weak">+966 920017730</p>
-                    <p className="sm:text-mobile-text-sm 3xl:text-desktop-text-sm text-base-weak">info@tools-solutions.com</p>
+                    <p className="sm:text-mobile-text-sm 3xl:text-desktop-text-sm text-base-weak pb-[5px]">info@tools-solutions.com</p>
                     <span className="sm:text-mobile-text-sm 3xl:text-desktop-text-sm text-smoke-weak">Copyright © 2024 Tools & Solutions®<br/>
                             P.O. Box 92009, Riyadh 11653 | Kingdom of Saudi Arabia</span>
                 </div>

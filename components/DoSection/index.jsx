@@ -17,7 +17,7 @@ export const DoSection = () => {
                     <br/>
                     Together, let’s shape your future!</p>
             </div>
-            <div className="relative w-auto sm:h-[320px] 3xl:h-[692px]">
+            <div className="relative w-auto sm:h-[320px] 3xl:h-[695px]">
                 <Image className="z-0 h-full" src={doPic} layout={'fill'} objectFit={'cover'} objectPosition={'center'}
                        alt={''}/>
             </div>
