@@ -23,8 +23,11 @@ export const Header = () => {
                     <a href="#" className="text-desktop-text-md text-base-weak">Link 3</a>
                     <a href="#" className="text-desktop-text-md text-base-weak">Link 4</a>
                 </div>
-                <div className="sm:hidden 2xl:flex 2xl:flex-1 2xl:justify-end">
+                <div className="sm:hidden 3xl:flex 2xl:flex-1 2xl:justify-end">
                     <a href="#" className="text-desktop-text-md text-base-weak underline">English</a>
+                </div>
+                <div className="3xl:hidden sm:flex sm:flex-1 sm:justify-end">
+                    <a href="#" className="text-mobile-text-md text-base-weak underline">Menu</a>
                 </div>
             </nav>
         </header>
