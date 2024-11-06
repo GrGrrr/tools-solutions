@@ -1,6 +1,6 @@
-export const Squarespace = () => {
+export const Squarespace = (props) => {
     return (
-        <svg width="278" height="40" viewBox="0 0 278 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg {...props} width="278" height="40" viewBox="0 0 278 40" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g opacity="0.7" clipPath="url(#clip0_5101_1265)">
                 <path
                     d="M10.8971 21.1901L26.49 5.61373C27.5435 4.5659 28.9689 3.97771 30.4547 3.97771C31.9405 3.97771 33.3659 4.5659 34.4194 5.61373L35.631 6.82553L38.0602 4.3964L36.8484 3.17906C35.1492 1.4835 32.8469 0.53125 30.4464 0.53125C28.0459 0.53125 25.7435 1.4835 24.0444 3.17906L8.4624 18.7609L10.8971 21.1901Z"
