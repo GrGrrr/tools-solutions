@@ -10,7 +10,8 @@ export const ClientsSection = () => {
             <div className="flex lg:flex-row sm:flex-col md:items-center md:justify-between">
                 <span
                     className="sm:text-mobile-title-sm 2xl:text-desktop-title-sm text-base-strong">Trusted by Industry Leaders</span>
-                <button type="button" className="sm:mt-[20px] md:mt-0 w-[232px] h-[64px] rounded-full bg-base-strong text-base-weak">Success
+                <button type="button"
+                        className="sm:mt-[20px] md:mt-0 w-[232px] h-[64px] rounded-full bg-base-strong text-base-weak">Success
                     stories
                 </button>
             </div>
@@ -34,15 +35,15 @@ export const ClientsSection = () => {
             </div>
             <div className="sm:pt-[40px] md:hidden">
                 <div className="grid grid-cols-2 items-center justify-items-center">
-                    <Unsplash style={{ height: '24px'}} />
-                    <Slack style={{ height: '24px'}}/>
+                    <Unsplash style={{height: '24px'}}/>
+                    <Slack style={{height: '24px'}}/>
                 </div>
                 <div className="flex flex-row items-center justify-center sm:pt-[40px]">
-                    <Squarespace style={{ height: '24px'}}/>
+                    <Squarespace style={{height: '24px'}}/>
                 </div>
                 <div className="grid grid-cols-2 items-center justify-items-center sm:pt-[40px] 2xl:pt-[80px]">
-                    <Dribbble style={{ height: '24px'}}/>
-                    <Webflow style={{ height: '24px'}}/>
+                    <Dribbble style={{height: '24px'}}/>
+                    <Webflow style={{height: '24px'}}/>
                 </div>
             </div>
         </div>

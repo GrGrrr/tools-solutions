@@ -1,19 +1,18 @@
-import Image from 'next/image';
-import careerPic from '@/public/annie-spratt-hCb3lIB8L8E-unsplash.jpg';
+import {CaseCard} from "@/components/CaseSection/components/CaseCard";
+import {logos} from "@/components/CaseSection/data";
 
 export const CaseSection = () => {
     return (
-        <div>
+        <div className="sm:px-[20px] sm:py-[80px] lg:px-[40px] 2xl:px-[64px] 2xl:py-[160px] 4xl:px-[100px] bg-bg-weak">
+            <p className="sm:text-mobile-title-md 2xl:text-desktop-title-md text-base-strong uppercase">Featured Case
+                studies</p>
             <div
-                className="relative z-10 sm:mx-[20px] sm:py-[80px] lg:mx-[40px] 2xl:mx-[64px] 2xl:py-[160px] 4xl:mx-[100px]">
-                <div className="flex flex-col justify-center items-center">
-                    <span
-                        className="sm:text-mobile-title-lg sm:text-center 2xl:text-desktop-title-sm 4xl:text-desktop-title-md text-base-weak mb-[80px] uppercase">What Can We Do <br/>for You?</span>
-                    <button type="button"
-                            className="w-[187px] h-[64px] rounded-full border-[1px] border-base-strong bg-base-weak text-base-strong">Talk
-                        to us
-                    </button>
-                </div>
+                className="sm:hidden 2xl:grid lg:grid-cols-2 lg:gap-[20px] lg:pt-[80px]">
+
+            </div>
+            <div
+                className="sm:flex sm:flex-row overflow-x-auto sm:pt-[60px] 2xl:hidden">
+                {logos.map((item, i) => <CaseCard key={i} item={item} />)}
             </div>
         </div>
     )

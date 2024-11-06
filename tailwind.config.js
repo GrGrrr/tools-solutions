@@ -26,15 +26,15 @@ module.exports = {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
                 'base': {
-                    'strong': '#000000',
-                    'weak': '#F5F5F5',
+                    'strong': 'rgba(0, 0, 0, 1)',
+                    'weak': 'rgba(255, 255, 255, 1)',
                 },
                 'smoke': {
-                    'strong': '#4D4D4D',
-                    'weak': '#CFD5D7',
+                    'strong': 'rgba(77, 77, 77, 1)',
+                    'weak': 'rgba(207, 213, 215, 1)',
                 },
                 'bg': {
-                    'strong': '#4D4D4D',
+                    'strong': 'rgba(0, 0, 0, 0.5)',
                     'weak': 'rgba(242, 242, 242, 1)',
                 },
                 'border': {
