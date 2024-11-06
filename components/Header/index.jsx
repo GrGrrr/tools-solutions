@@ -5,7 +5,7 @@ import {LogoMobile} from "@/assets/icons/LogoMobile";
 export const Header = () => {
     return (
         <header
-            className="sm:px-[20px] sm:pt-[40px] lg:px-[40px] 3xl:px-[64px] 2xl:pt-[40px] 4xl:px-[100px] relative z-10">
+            className="absolute w-full sm:px-[20px] sm:pt-[40px] lg:px-[40px] 3xl:px-[64px] 2xl:pt-[40px] 4xl:px-[100px] z-10">
             <nav className="flex items-center justify-between pb-[80px]" aria-label="Global">
                 <div className="2xl:flex 2xl:flex-1 sm:hidden">
                     <Link href="/">

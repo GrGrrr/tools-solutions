@@ -1,15 +1,18 @@
 import Image from 'next/image';
 import heroPic from '@/public/Hero.png';
 
+const styling = {
+    backgroundImage: `url('${heroPic.src}')`,
+    backgroundPosition: 'center center',
+    objectFit: 'contain',
+    width: "100%",
+    height: "100%",
+    boxShadow: 'inset 0 0 0 2000px rgba(0, 0, 0, 0.5)'
+}
+
 export const HeroSection = () => {
     return (
-        <div className="w-full h-full z-10">
-            <Image
-                className="z-0 sm:min-h-[980px] sm:min-w-[280%] lg:min-w-[124%] lg:min-h-[1062px] 2xl:min-w-[124%] 2xl:min-h-[1050px] 4xl:min-w-[100%] 4xl:min-h-[1250px]"
-                src={heroPic}
-                layout={'fill'} objectFit={'cover'} objectPosition={'left'}
-                style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', opacity: '0.5'}}
-                alt={''}/>
+        <div className="w-full h-full z-10 pt-[152px]" style={styling}>
             <div className="relative sm:mx-[20px] lg:mx-[40px] 3xl:mx-[64px] 2xl:mb-[120px] 4xl:mx-[100px] z-10">
                 <div className="sm:hidden 2xl:justify-start 2xl:flex">
                     <p className="2xl:text-tablet-text 3xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-weak uppercase">
