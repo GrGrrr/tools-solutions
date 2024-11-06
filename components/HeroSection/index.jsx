@@ -42,7 +42,7 @@ export const HeroSection = () => {
                     </p>
                 </div>
                 <div className="sm:block 3xl:hidden">
-                    <p className="sm:text-mobile-hero-title uppercase">
+                    <p className="sm:text-mobile-hero-title text-base-weak uppercase">
                         growth
                     </p>
                 </div>
