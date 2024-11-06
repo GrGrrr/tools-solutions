@@ -4,25 +4,26 @@ import {LogoMobile} from "@/assets/icons/LogoMobile";
 
 export const Header = () => {
     return (
-        <header className="sm:px-[20px] sm:pt-[40px] 3xl:px-[64px] 3xl:pt-[40px] 4xl:px-[100px] relative z-10">
+        <header
+            className="sm:px-[20px] sm:pt-[40px] lg:px-[40px] 3xl:px-[64px] 2xl:pt-[40px] 4xl:px-[100px] relative z-10">
             <nav className="flex items-center justify-between pb-[80px]" aria-label="Global">
-                <div className="flex 3xl:flex-1 sm:hidden 3xl:block">
+                <div className="2xl:flex 2xl:flex-1 sm:hidden">
                     <Link href="/">
-                        <Logo className="sm:block 3xl:hidden"/>
+                        <Logo/>
                     </Link>
                 </div>
-                <div className="flex 3xl:flex-1 sm:block 3xl:hidden">
+                <div className="sm:block 2xl:hidden">
                     <a href="#">
-                        <LogoMobile className="sm:block 3xl:hidden"/>
+                        <LogoMobile/>
                     </a>
                 </div>
-                <div className="sm:hidden 3xl:flex 3xl:gap-x-12">
+                <div className="sm:hidden 2xl:flex 2xl:gap-x-12">
                     <a href="#" className="text-desktop-text-md text-base-weak">Link 1</a>
                     <a href="#" className="text-desktop-text-md text-base-weak">Link 2</a>
                     <a href="#" className="text-desktop-text-md text-base-weak">Link 3</a>
                     <a href="#" className="text-desktop-text-md text-base-weak">Link 4</a>
                 </div>
-                <div className="sm:hidden 3xl:flex 3xl:flex-1 3xl:justify-end">
+                <div className="sm:hidden 2xl:flex 2xl:flex-1 2xl:justify-end">
                     <a href="#" className="text-desktop-text-md text-base-weak underline">English</a>
                 </div>
             </nav>

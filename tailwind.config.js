@@ -35,7 +35,7 @@ module.exports = {
                 },
                 'bg': {
                     'strong': '#4D4D4D',
-                    'weak': '#CFD5D7',
+                    'weak': 'rgba(242, 242, 242, 1)',
                 },
                 'border': {
                     'footer': 'rgba(64, 64, 64, 1)',
@@ -77,6 +77,14 @@ module.exports = {
                 'desktop-text-sm': ['14px', {
                     lineHeight: '22.4px',
                     fontWeight: '500',
+                }],
+                'tablet-text': ['90px', {
+                    lineHeight: '90px',
+                    fontWeight: '500',
+                }],
+                'mobile-horizontal': ['92.96px', {
+                    lineHeight: '92.96px',
+                    fontWeight: '700',
                 }],
                 'mobile-hero-title': ['48px', {
                     lineHeight: '48px',
