@@ -53,7 +53,7 @@ export const AwardsSection = () => {
                 </div>
             </div>
             <div
-                className="sm:hidden 2xl:block 2xl:pt-[80px] border-t-[1px] border-smoke-weak">
+                className="sm:hidden 2xl:block 3xl:hidden 2xl:pt-[80px] border-t-[1px] border-smoke-weak">
                 <div className="grid grid-cols-2 gap-[20px]">
                     <div className="sm:mb-[80px] 3xl:mb-0">
                         <div className="relative sm:mb-[20px] 2xl:mb-[40px] sm:h-[240px] 2xl:h-[400px]">
