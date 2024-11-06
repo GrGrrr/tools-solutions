@@ -22,7 +22,14 @@ export const ClientsSection = () => {
                 <Dribbble/>
                 <Webflow/>
             </div>
-            <div className="sm:pt-[40px] lg:pt-[80px] sm:hidden 3xl:hidden">
+            <div className="items-center justify-items-center sm:hidden lg:grid lg:grid-cols-5 2xl:hidden lg:pt-[80px]">
+                <Unsplash style={{height: '24px'}}/>
+                <Slack style={{height: '24px'}}/>
+                <Squarespace style={{height: '24px'}}/>
+                <Dribbble style={{height: '24px'}}/>
+                <Webflow style={{height: '24px'}}/>
+            </div>
+            <div className="sm:pt-[40px] lg:pt-[80px] sm:hidden 2xl:block 3xl:hidden">
                 <div className="grid grid-cols-3 items-center justify-items-center">
                     <Unsplash/>
                     <Slack/>
