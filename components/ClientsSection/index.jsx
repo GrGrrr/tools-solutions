@@ -6,7 +6,7 @@ import {Webflow} from "@/assets/icons/Webflow";
 
 export const ClientsSection = () => {
     return (
-        <div className="sm:px-[20px] sm:py-[80px] lg:px-[40px] 3xl:px-[64px] 2xl:py-[160px] 4xl:px-[100px] bg-bg-weak">
+        <div className="sm:px-[20px] sm:py-[80px] lg:px-[40px] 2xl:px-[64px] 2xl:py-[160px] 4xl:px-[100px] bg-bg-weak">
             <div className="flex lg:flex-row sm:flex-col md:items-center md:justify-between">
                 <span
                     className="sm:text-mobile-title-sm 2xl:text-desktop-title-sm text-base-strong">Trusted by Industry Leaders</span>

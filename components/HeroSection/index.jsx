@@ -12,7 +12,7 @@ const styling = {
 export const HeroSection = () => {
     return (
         <div className="w-full h-full z-10 pt-[152px]" style={styling}>
-            <div className="relative sm:mx-[20px] lg:mx-[40px] 3xl:mx-[64px] 2xl:mb-[120px] 4xl:mx-[100px] z-10">
+            <div className="relative sm:mx-[20px] lg:mx-[40px] 2xl:mx-[64px] 2xl:mb-[120px] 4xl:mx-[100px] z-10">
                 <div className="sm:hidden 2xl:justify-start 2xl:flex">
                     <p className="2xl:text-tablet-text 3xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-weak uppercase">
                         Empovering &
@@ -50,7 +50,7 @@ export const HeroSection = () => {
                 </div>
             </div>
             <div
-                className="grid 2xl:grid-cols-2 relative sm:mx-[20px] sm:my-[80px] lg:mx-[40px] 3xl:mx-[64px] mb-[80px] z-10">
+                className="grid 2xl:grid-cols-2 relative sm:mx-[20px] sm:my-[80px] lg:mx-[40px] 2xl:mx-[64px] mb-[80px] z-10">
                 <div className="flex flex-col">
                     <p className="sm:text-mobile-text-md 2xl:text-desktop-text-lg 2xl:text-end text-base-weak">From
                         enhancing operational efficiency to incorporating
@@ -64,7 +64,7 @@ export const HeroSection = () => {
                 </div>
             </div>
             <div
-                className="relative sm:grid sm:grid-cols-2 lg:flex lg:items-center lg:justify-between sm:mx-[20px] lg:mx-[40px] 3xl:mx-[64px] pb-[120px] z-10">
+                className="relative sm:grid sm:grid-cols-2 lg:flex lg:items-center lg:justify-between sm:mx-[20px] lg:mx-[40px] 2xl:mx-[64px] pb-[120px] z-10">
                 <a href="#" className="sm:text-mobile-text-md 2xl:text-desktop-text-md text-base-weak underline">Intelligent
                     Automation</a>
                 <a href="#"

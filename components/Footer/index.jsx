@@ -12,7 +12,7 @@ export const Footer = () => {
 
     return (
         <div
-            className="sm:px-[20px] sm:pt-[40px] sm:pb-[40px] lg:px-[40px] 3xl:px-[64px] 2xl:pt-[80px] 2xl:pb-[40px] 4xl:px-[100px] relative z-10 bg-base-strong">
+            className="sm:px-[20px] sm:pt-[40px] sm:pb-[40px] lg:px-[40px] 2xl:px-[64px] 2xl:pt-[80px] 2xl:pb-[40px] 4xl:px-[100px] relative z-10 bg-base-strong">
             <div className="flex 2xl:flex-1 pb-[40px] border-b-[1px] border-border-footer">
                 <a href="#">
                     <Logo/>

@@ -4,7 +4,7 @@ import twoPic from '@/public/campaign-creators-qCi_MzVODoU-unsplash.jpg';
 export const Two = () => {
     return (
         <div
-            className="2xl:pl-[40px] 3xl:pl-[64px] 2xl:grid 2xl:grid-cols-2 sm:flex sm:flex-col bg-base-weak shadow-slider">
+            className="lg:pl-[40px] 2xl:pl-[64px] 2xl:grid 2xl:grid-cols-2 sm:flex sm:flex-col bg-base-weak shadow-slider">
             <div className="sm:pt-[60px] sm:px-[20px] lg:px-[40px] 2xl:px-0 2xl:pt-[80px] 2xl:mr-[80px]">
                 <span className="sm:hidden 2xl:text-desktop-title-sm 2xl:block text-base-strong">Streamlined Solutions for Success</span>
                 <span

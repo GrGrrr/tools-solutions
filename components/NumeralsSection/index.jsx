@@ -8,10 +8,10 @@ export const NumeralsSection = () => {
                    style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', opacity: '0.5'}}
                    objectPosition={'center'} alt={''}/>
             <div
-                className="relative z-10 sm:mx-[20px] lg:mx-[40px] sm:pt-[80px] 3xl:mx-[64px] 2xl:pt-[160px] 4xl:mx-[100px]">
+                className="relative z-10 sm:mx-[20px] lg:mx-[40px] sm:pt-[80px] 2xl:mx-[64px] 2xl:pt-[160px] 4xl:mx-[100px]">
             <span
                 className="sm:hidden 2xl:text-desktop-title-md 2xl:block text-base-weak uppercase">Empowering Growth.<br/>
-            Our Expertise. Our Commitment</span>
+            Our Expertise. Our&nbsp;Commitment</span>
                 <span className="sm:text-mobile-title-md sm:block 2xl:hidden text-base-weak uppercase">Empowering <br/>Growth<br/>
             Our Expertise< br/>Our Commitment</span>
                 <p className="sm:text-mobile-text-lg 2xl:text-desktop-text-md text-base-weak sm:mt-[40px] sm:mb-[30px] 2xl:mt-[64px] 2xl:mr-[80px]">Discover
@@ -24,7 +24,7 @@ export const NumeralsSection = () => {
                 </div>
             </div>
             <div
-                className="relative sm:flex sm:flex-col 2xl:grid 2xl:grid-cols-3 z-10 sm:mx-[20px] lg:mx-[40px] sm:pt-[40px] sm:pb-[30px] 3xl:mx-[64px] 2xl:pt-[80px] pb-[40px]">
+                className="relative sm:flex sm:flex-col 2xl:grid 2xl:grid-cols-3 z-10 sm:mx-[20px] lg:mx-[40px] sm:pt-[40px] sm:pb-[30px] 2xl:mx-[64px] 2xl:pt-[80px] pb-[40px]">
                 <div className="flex items-center sm:pb-[20px]">
                     <div className="flex justify-center flex-col h-full border-l-[1px] border-smoke-weak">
                         <span
@@ -57,7 +57,7 @@ export const NumeralsSection = () => {
                 </div>
             </div>
             <div
-                className="relative sm:flex sm:flex-col sm:mx-[20px] lg:mx-[40px] sm:pb-[80px] 2xl:grid 2xl:grid-cols-3 z-10 3xl:mx-[64px] 2xl:pb-[160px]">
+                className="relative sm:flex sm:flex-col sm:mx-[20px] lg:mx-[40px] sm:pb-[80px] 2xl:grid 2xl:grid-cols-3 z-10 2xl:mx-[64px] 2xl:pb-[160px]">
                 <div className="flex items-center">
                     <div className="border-l-[1px] border-smoke-weak sm:mb-[20px]">
                         <span
