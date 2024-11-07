@@ -52,7 +52,7 @@ export const HeroSection = () => {
             <div
                 className="grid 2xl:grid-cols-2 relative sm:mx-[20px] sm:my-[80px] lg:mx-[40px] 2xl:mx-[64px] mb-[80px] z-10">
                 <div className="flex flex-col">
-                    <p className="sm:text-mobile-text-md 2xl:text-desktop-text-lg 2xl:text-end text-base-weak">From
+                    <p className="sm:text-mobile-text-md 2xl:text-desktop-text-md 3xl:text-desktop-text-lg 2xl:text-end text-base-weak">From
                         enhancing operational efficiency to incorporating
                         the latest technology, we help businesses achieve more. Our solutions are designed to provide
                         you with smarter, quicker, and easier ways to succeed</p>
