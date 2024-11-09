@@ -1,8 +1,8 @@
-import {One} from "@/components/ProductsSection/components/One";
-import {Two} from "@/components/ProductsSection/components/Two";
-import {Three} from "@/components/ProductsSection/components/Three";
-import {Four} from "@/components/ProductsSection/components/Four";
-import {Five} from "@/components/ProductsSection/components/Five";
+import {One} from "@/components/HomePage/ProductsSection/components/One";
+import {Two} from "@/components/HomePage/ProductsSection/components/Two";
+import {Three} from "@/components/HomePage/ProductsSection/components/Three";
+import {Four} from "@/components/HomePage/ProductsSection/components/Four";
+import {Five} from "@/components/HomePage/ProductsSection/components/Five";
 
 export const ProductsSection = () => {
     return (

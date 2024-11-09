@@ -1,8 +1,8 @@
 import {useState} from "react";
-import {CaseCard} from "@/components/CaseSection/components/CaseCard";
-import {CaseItem} from "@/components/CaseSection/components/CaseItem";
-import {desktopInfo, desktopLogos, mobile} from "@/components/CaseSection/data";
-import {VerticalTab} from "@/components/CaseSection/components/VerticalTab";
+import {CaseCard} from "@/components/HomePage/CaseSection/components/CaseCard";
+import {CaseItem} from "@/components/HomePage/CaseSection/components/CaseItem";
+import {desktopInfo, desktopLogos, mobile} from "@/components/HomePage/CaseSection/data";
+import {VerticalTab} from "@/components/HomePage/CaseSection/components/VerticalTab";
 
 export const CaseSection = () => {
     const [activeTab, setActiveTab] = useState('01');

@@ -2,11 +2,11 @@ export const NumbersSection = () => {
     return (
         <div className="sm:px-[20px] lg:px-[40px] sm:py-[80px] 2xl:py-[160px] 2xl:px-[64px] 4xl:px-[100px] bg-bg-weak">
             <span className="sm:text-mobile-title-md 2xl:text-desktop-title-md text-base-strong uppercase">Success in Numbers</span>
-            <div className="relative sm:mx-[20px] 2xl:mx-[40px] 3xl:mx-[64px] 2xl:mb-[120px] z-10">
-                <div className="sm:hidden 2xl:justify-start 2xl:flex">
-                    <div className="grid grid-cols-2 gap-[40px]">
+            <div className="relative sm:mx-[20px] 2xl:mx-[40px] 3xl:mx-[64px] 2xl:mb-[120px] mt-[80px] z-10">
+                <div className="sm:hidden 2xl:justify-center 2xl:inline-flex pb-[80px]">
+                    <div className="grid grid-cols-2 items-center gap-[40px]">
                         <div
-                            className="2xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-strong uppercase">
+                            className="2xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-end text-base-strong uppercase">
                             1973
                         </div>
                         <div className="2xl:text-desktop-text-lg 4xl:text-desktop-text-lg text-base-strong">We started
@@ -15,9 +15,9 @@ export const NumbersSection = () => {
                         </div>
                     </div>
                 </div>
-                <div className="sm:hidden 2xl:justify-end 2xl:flex">
-                    <div className="grid grid-cols-2">
-                        <p className="2xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-strong uppercase">
+                <div className="sm:hidden 2xl:justify-center 2xl:flex pb-[80px]">
+                    <div className="grid grid-cols-2 items-center gap-[40px]">
+                        <p className="2xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-strong text-end uppercase">
                             64%
                         </p>
                         <p className="2xl:text-desktop-text-lg 4xl:text-desktop-text-lg text-base-strong">We&#39;ve
@@ -26,8 +26,8 @@ export const NumbersSection = () => {
                     </div>
                 </div>
                 <div className="sm:hidden 2xl:flex 2xl:justify-center">
-                    <div className="grid grid-cols-2">
-                        <p className="2xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-strong uppercase">
+                    <div className="grid grid-cols-2 items-center gap-[40px]">
+                        <p className="2xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-strong text-end uppercase">
                             40
                         </p>
                         <p className="2xl:text-desktop-text-lg 4xl:text-desktop-text-lg text-base-strong">Across 65

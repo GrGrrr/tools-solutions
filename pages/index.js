@@ -1,12 +1,12 @@
 import {Layout} from "@/components/Layout";
-import {HeroSection} from "@/components/HeroSection";
-import {DoSection} from "@/components/DoSection";
-import {ClientsSection} from "@/components/ClientsSection";
-import {ProductsSection} from "@/components/ProductsSection";
-import {NumeralsSection} from "@/components/NumeralsSection";
-import {CareerSection} from "@/components/CareerSection";
-import {AwardsSection} from "@/components/AwardsSection";
-import {CaseSection} from "@/components/CaseSection";
+import {HeroSection} from "components/HomePage/HeroSection";
+import {DoSection} from "components/HomePage/DoSection";
+import {ClientsSection} from "components/HomePage/ClientsSection";
+import {ProductsSection} from "components/HomePage/ProductsSection";
+import {NumeralsSection} from "components/HomePage/NumeralsSection";
+import {CareerSection} from "components/HomePage/CareerSection";
+import {AwardsSection} from "components/HomePage/AwardsSection";
+import {CaseSection} from "components/HomePage/CaseSection";
 
 export default function Home() {
     return (

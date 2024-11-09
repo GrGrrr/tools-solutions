@@ -1,21 +1,18 @@
 import {Layout} from "@/components/Layout";
-import {ClientsSection} from "@/components/ClientsSection";
-import {ProductsSection} from "@/components/ProductsSection";
-import {NumeralsSection} from "@/components/NumeralsSection";
-import {CareerSection} from "@/components/CareerSection";
-import {AwardsSection} from "@/components/AwardsSection";
-import {AboutHeroSection} from "@/components/AboutHero";
-import {NumbersSection} from "@/components/NumbersSection";
-
+import {HeroSection} from "components/AboutPage/HeroSection";
+import {NumbersSection} from "components/AboutPage/NumbersSection";
+import {ApproachSection} from "@/components/AboutPage/ApproachSection";
+import {StepsSection} from "@/components/AboutPage/StepsSection";
+import {AwardsSection} from "@/components/AboutPage/AwardsSection";
+import {CareerSection} from "@/components/AboutPage/CareerSection";
 
 export default function About() {
     return (
         <>
-            <AboutHeroSection/>
+            <HeroSection/>
             <NumbersSection/>
-            <ClientsSection/>
-            <ProductsSection/>
-            <NumeralsSection/>
+            <ApproachSection/>
+            <StepsSection/>
             <AwardsSection/>
             <CareerSection/>
         </>

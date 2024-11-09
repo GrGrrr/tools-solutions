@@ -1,21 +1,25 @@
-import Image from 'next/image';
 import heroPic from '@/public/8399d3dc713bd4a64320ee0461bedc01.jpeg';
 
-export const AboutHeroSection = () => {
+const styling = {
+    backgroundImage: `url('${heroPic.src}')`,
+    backgroundPosition: 'center center',
+    objectFit: 'contain',
+    width: "100%",
+    height: "100%",
+    boxShadow: 'inset 0 0 0 2000px rgba(0, 0, 0, 0.5)'
+}
+
+export const HeroSection = () => {
     return (
-        <div className="w-full h-full overflow-hidden z-10">
-            <Image className="z-0 2xl:min-w-[127%] 2xl:min-h-[127%] 4xl:min-w-[100%] 4xl:min-h-[100%]" src={heroPic}
-                   layout={'fill'} objectFit={'cover'} objectPosition={'center'}
-                   style={{backgroundColor: 'rgba(0, 0, 0, 0.5)', opacity: '0.5'}}
-                   alt={''}/>
-            <div className="relative sm:mx-[20px] 2xl:mx-[64px] 4xl:mx-[100px] 2xl:mb-[120px] z-10">
+        <div className="w-full h-full z-10 pt-[152px]" style={styling}>
+            <div className="relative sm:mx-[20px] lg:mx-[40px] 2xl:mx-[64px] 2xl:mb-[120px] 4xl:mx-[100px] z-10">
                 <div className="sm:hidden 2xl:justify-start 2xl:flex">
-                    <p className="2xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-weak uppercase">
+                    <p className="2xl:text-tablet-text 3xl:text-desktop-hero-title 4xl:text-desktop-hero-title-lg text-base-weak uppercase">
                         Tools & Solutions
                     </p>
                 </div>
-                <div className="sm:block sm:pb-[10px] 3xl:hidden">
-                    <p className="sm:text-mobile-hero-title text-base-weak uppercase">
+                <div className="sm:block sm:pb-[10px] 2xl:hidden">
+                    <p className="sm:text-mobile-hero-title lg:text-mobile-horizontal text-base-weak uppercase">
                         Tools & Solutions
                     </p>
                 </div>
